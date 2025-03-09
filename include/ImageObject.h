@@ -19,6 +19,9 @@ public:
 	int getWidth() const;
 	int getHeight() const;
 
+	uchar getPixel(int x, int y) const { return buffer[y * width + x]; }
+	void setPixel(int x, int y, uchar value) { buffer[y * width + x] = value; }
+
 	Mat toMat();
 };
 
@@ -55,10 +58,10 @@ ImageObject::~ImageObject()
 	delete[] buffer;
 }
 
-int ImageObject::getWidth() const { return width; }
-int ImageObject::getHeight() const { return height; }
+inline int ImageObject::getWidth() const { return width; }
+inline int ImageObject::getHeight() const { return height; }
 
-Mat ImageObject::toMat()
+inline Mat ImageObject::toMat()
 {
 	Mat image(height, width, CV_8UC1);
 	for (int i = 0; i < height; i++)
