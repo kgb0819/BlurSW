@@ -35,6 +35,7 @@ json loadConfig(const string path)
 	return data;
 }
 
+
 int main()
 {
 	// ¼ÂÆÃ °ª load
