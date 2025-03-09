@@ -1,0 +1,24 @@
+﻿  pch.cpp
+D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
+  
+D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
+  
+D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
+  
+  OpenCV.cpp
+D:\BlurSW\OpenCV_DLL\OpenCV.cpp(4,6): warning C4273: 'ImageBlur': dll 연결이 일치하지 않습니다.
+  (소스 파일 '/OpenCV.cpp'을(를) 컴파일하는 중)
+      D:\BlurSW\OpenCV_DLL\OpenCV.h(12,28):
+      'ImageBlur'의 이전 정의를 참조하십시오.
+  
+  dllmain.cpp
+     D:\BlurSW\x64\Release\OpenCV_DLL.lib 라이브러리 및 D:\BlurSW\x64\Release\OpenCV_DLL.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  0 of 4 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  OpenCV_DLL.vcxproj -> D:\BlurSW\x64\Release\OpenCV_DLL.dll
