@@ -1,5 +1,5 @@
 {
   "image_path": "../test_images",
-  "kernel_size": 3,
+  "kernel_size": 21,
   "result_path": ""
 }

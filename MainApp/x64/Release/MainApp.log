@@ -9,8 +9,8 @@ D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페�
   (소스 파일 'main.cpp'을(를) 컴파일하는 중)
   
   코드를 생성하고 있습니다.
-  69 of 1495 functions ( 4.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    150 functions had inline decision re-evaluated but remain unchanged
+  91 of 1381 functions ( 6.6%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    70 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
   MainApp.vcxproj -> D:\BlurSW\x64\Release\MainApp.exe

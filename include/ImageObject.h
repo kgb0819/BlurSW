@@ -1,52 +1,73 @@
 #ifndef IMAGEOBJECT_H
 #define IMAGEOBJECT_H
 
+#include <opencv2/opencv.hpp>
+using namespace cv;
+
 class ImageObject
 {
 private:
 	int width;
 	int height;
-	int* pixels;
+	uchar* buffer;
 public:
+	ImageObject();
 	ImageObject(int width, int height);
+	ImageObject(const Mat& image);
 	~ImageObject();
-	void setPixel(int x, int y, int value);
-	int getPixel(int x, int y);
-	int getWidth();
-	int getHeight();
+
+	int getWidth() const;
+	int getHeight() const;
+
+	Mat toMat();
 };
+
+ImageObject::ImageObject()
+{
+	this->width = 0;
+	this->height = 0;
+	this->buffer = nullptr;
+}
 
 ImageObject::ImageObject(int width, int height)
 {
 	this->width = width;
 	this->height = height;
-	this->pixels = new int[width * height];
+	this->buffer = new uchar[width * height];
+}
+
+ImageObject::ImageObject(const Mat& image)
+{
+	this->width = image.cols;
+	this->height = image.rows;
+	this->buffer = new uchar[width * height];
+	for (int i = 0; i < height; i++)
+	{
+		for (int j = 0; j < width; j++)
+		{
+			buffer[i * width + j] = image.at<uchar>(i, j);
+		}
+	}
 }
 
 ImageObject::~ImageObject()
 {
-	delete[] pixels;
+	delete[] buffer;
 }
 
-inline void ImageObject::setPixel(int x, int y, int value)
+int ImageObject::getWidth() const { return width; }
+int ImageObject::getHeight() const { return height; }
+
+Mat ImageObject::toMat()
 {
-	pixels[y * width + x] = value;
+	Mat image(height, width, CV_8UC1);
+	for (int i = 0; i < height; i++)
+	{
+		for (int j = 0; j < width; j++)
+		{
+			image.at<uchar>(i, j) = buffer[i * width + j];
+		}
+	}
+	return image;
 }
-
-inline int ImageObject::getPixel(int x, int y)
-{
-	return pixels[y * width + x];
-}
-
-inline int ImageObject::getWidth()
-{
-	return width;
-}
-
-inline int ImageObject::getHeight()
-{
-	return height;
-}
-
-
 #endif // IMAGEOBJECT_H
