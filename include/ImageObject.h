@@ -19,6 +19,9 @@ public:
 	int getWidth() const;
 	int getHeight() const;
 
+	uchar getPixel(int x, int y) const { return buffer[y * width + x]; }
+	void setPixel(int x, int y, uchar value) { buffer[y * width + x] = value; }
+
 	Mat toMat();
 };
 

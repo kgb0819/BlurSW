@@ -6,6 +6,6 @@ bool ImageBlur(const ImageObject* src, ImageObject* dst, const int kernelSize) {
 		return false;
 	}
 
-	cv::blur(src->toMat(), dst->toMat(), cv::Size(kernelSize, kernelSize));
+	cv::blur(src, dst, cv::Size(kernelSize, kernelSize));
 	return true;
 }
