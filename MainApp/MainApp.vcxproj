@@ -19,11 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Common\ImageObject.cpp" />
+    <ClCompile Include="..\Custom_DLL\Custom.cpp" />
+    <ClCompile Include="..\OpenCV_DLL\OpenCV.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\ImageObject.h" />
-    <ClInclude Include="..\include\nlohmann\json.hpp" />
+    <ClInclude Include="..\Common\ImageObject.h" />
+    <ClInclude Include="..\Custom_DLL\Custom.h" />
+    <ClInclude Include="..\OpenCV_DLL\OpenCV.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -78,12 +82,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\opencv;..\include</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\opencv;..\Common;..\OpenCV_DLL;..\Custom_DLL</IncludePath>
     <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(WindowsSdkDir)lib;D:\opencv</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(WindowsSdkDir)lib;D:\opencv</LibraryPath>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\opencv;..\include</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\opencv;..\Common;..\OpenCV_DLL;..\Custom_DLL</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -120,7 +124,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>D:\opencv\build\include;D:\opencv;..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\opencv\build\include;D:\opencv;..\Common</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -138,7 +142,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>D:\opencv\build\include;D:\opencv;..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\opencv\build\include;D:\opencv;..\Common</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

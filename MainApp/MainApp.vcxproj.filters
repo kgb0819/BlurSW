@@ -18,12 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\Common\ImageObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Custom_DLL\Custom.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenCV_DLL\OpenCV.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\ImageObject.h">
+    <ClInclude Include="..\Common\ImageObject.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\nlohmann\json.hpp">
+    <ClInclude Include="..\OpenCV_DLL\OpenCV.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Custom_DLL\Custom.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

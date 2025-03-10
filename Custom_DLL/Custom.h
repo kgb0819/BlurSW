@@ -9,6 +9,7 @@
 #endif
 
 class ImageObject;
-extern "C" CUSTOM_API bool ImageBlur(const ImageObject* src, ImageObject* dst, const int kernelSize);
-
+namespace Custom {
+	__declspec(dllexport) bool ImageBlur(const ImageObject* src, ImageObject* dst, const int kernelSize);
+}
 #endif // !CUSTOM_H
