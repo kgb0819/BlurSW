@@ -9,6 +9,8 @@
 #endif
 
 class ImageObject;
-extern "C" OPENCV_API bool ImageBlur(const ImageObject* src, ImageObject* dst, const int kernelSize);
+namespace OpenCV {
+	OPENCV_API bool ImageBlur(const ImageObject* src, ImageObject* dst, const int kernelSize);
+}
 
 #endif // !OPENCV_H
