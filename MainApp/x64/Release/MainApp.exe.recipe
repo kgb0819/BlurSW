@@ -2,6 +2,12 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>D:\BlurSW\x64\Release\Custom.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BlurSW\x64\Release\OpenCV.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\BlurSW\x64\Release\MainApp.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

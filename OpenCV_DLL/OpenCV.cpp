@@ -7,7 +7,7 @@ namespace OpenCV {
 			return false;
 		}
 
-		Mat dstMat;
+		cv::Mat dstMat;
 		cv::blur(src->toMat(), dstMat, cv::Size(kernelSize, kernelSize));
 		*dst=dstMat;
 		return true;

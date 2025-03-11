@@ -1,19 +1,6 @@
-﻿  pch.cpp
-D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
-  
-D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
-  
-D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
-  
-  OpenCV.cpp
-  dllmain.cpp
-     D:\BlurSW\x64\Release\OpenCV_DLL.lib 라이브러리 및 D:\BlurSW\x64\Release\OpenCV_DLL.exp 개체를 생성하고 있습니다.
+﻿     D:\BlurSW\x64\Release\OpenCV.lib 라이브러리 및 D:\BlurSW\x64\Release\OpenCV.exp 개체를 생성하고 있습니다.
   코드를 생성하고 있습니다.
-  1 of 4 functions (25.0%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 77 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   코드를 생성했습니다.
-  OpenCV_DLL.vcxproj -> D:\BlurSW\x64\Release\OpenCV_DLL.dll
+  OpenCV_DLL.vcxproj -> D:\BlurSW\x64\Release\OpenCV.dll

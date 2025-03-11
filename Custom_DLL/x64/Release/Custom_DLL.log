@@ -1,22 +1,7 @@
-﻿  pch.cpp
-D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
-  
-D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
-  
-D:\opencv\build\include\opencv2\core.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
-  
-  Custom.cpp
-D:\BlurSW\Custom_DLL\Custom.cpp(26,25): warning C4244: '인수': 'float'에서 'uchar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 '/Custom.cpp'을(를) 컴파일하는 중)
-  
-  dllmain.cpp
-     D:\BlurSW\x64\Release\Custom_DLL.lib 라이브러리 및 D:\BlurSW\x64\Release\Custom_DLL.exp 개체를 생성하고 있습니다.
+﻿     D:\BlurSW\x64\Release\Custom.lib 라이브러리 및 D:\BlurSW\x64\Release\Custom.exp 개체를 생성하고 있습니다.
   코드를 생성하고 있습니다.
-  1 of 6 functions (16.7%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
+  0 of 8 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
-  Custom_DLL.vcxproj -> D:\BlurSW\x64\Release\Custom_DLL.dll
+  Custom_DLL.vcxproj -> D:\BlurSW\x64\Release\Custom.dll
