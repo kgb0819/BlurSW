@@ -10,7 +10,7 @@
 
 class ImageObject;
 namespace OpenCV {
-	__declspec(dllexport) bool ImageBlur(const ImageObject* src, ImageObject* dst, const int kernelSize);
+	OPENCV_API bool ImageBlur(const ImageObject* src, ImageObject* dst, const int kernelSize);
 }
 
 #endif // !OPENCV_H
