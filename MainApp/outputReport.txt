@@ -1,0 +1,18 @@
+index:1 Custom::ImageBlur elapsed time: 16.0158 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0444945 sec
+index:1 Custom::ImageBlur memory usage: 360538112 bytes
+index:1 OpenCV::ImageBlur memory usage: 512000 bytes
+index:1 Image Difference Score: 0.696213
+
+index:2 Custom::ImageBlur elapsed time: 21.3037 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.059769 sec
+index:2 Custom::ImageBlur memory usage: 18446744073589288960 bytes
+index:2 OpenCV::ImageBlur memory usage: 606208 bytes
+index:2 Image Difference Score: 0.554818
+
+index:0 Custom::ImageBlur elapsed time: 21.358 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0662423 sec
+index:0 Custom::ImageBlur memory usage: 18446744073589895168 bytes
+index:0 OpenCV::ImageBlur memory usage: 60125184 bytes
+index:0 Image Difference Score: 0.576157
+

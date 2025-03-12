@@ -1,0 +1,14 @@
+[2025-03-12 16:35:18] [info] config.json loaded successfully!
+[2025-03-12 16:35:18] [info] Found 6 image files in: test_images
+[2025-03-12 16:35:18] [error] Image file should be grayscale!
+[2025-03-12 16:35:19] [error] Image file should be grayscale!
+[2025-03-12 16:35:19] [error] Image file should be grayscale!
+[2025-03-12 16:35:36] [info]  Custom ImageBlur success!
+[2025-03-12 16:35:36] [info]  OpenCV ImageBlur success!
+[2025-03-12 16:35:37] [info] Result images saved successfully!
+[2025-03-12 16:35:45] [info]  Custom ImageBlur success!
+[2025-03-12 16:35:45] [info]  OpenCV ImageBlur success!
+[2025-03-12 16:35:45] [info]  Custom ImageBlur success!
+[2025-03-12 16:35:45] [info]  OpenCV ImageBlur success!
+[2025-03-12 16:35:46] [info] Result images saved successfully!
+[2025-03-12 16:35:46] [info] Result images saved successfully!
