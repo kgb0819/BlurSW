@@ -14,22 +14,20 @@ namespace Custom {
 		}
 
 		int halfSize = kernelSize / 2;
-		//int kernelArea = kernelSize * kernelSize;
+		int kernelArea = kernelSize * kernelSize;
 
 		for (int y = 0; y < src->getHeight(); y++) {
 			for (int x = 0; x < src->getWidth(); x++) {
 				float sum = 0.0f;
-				int count = 0;
 
 				for (int ky = -halfSize; ky <= halfSize; ky++) {
 					for (int kx = -halfSize; kx <= halfSize; kx++) {
 						int yy = reflect101(y + ky, src->getHeight());
 						int xx = reflect101(x + kx, src->getWidth());
 						sum += src->getPixel(xx, yy);
-						count++;
 					}
 				}
-				dst->setPixel(x, y, cv::saturate_cast<uchar>(sum / count));
+				dst->setPixel(x, y, cv::saturate_cast<uchar>(sum / kernelArea));
 			}
 		}
 
