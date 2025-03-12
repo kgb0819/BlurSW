@@ -1,0 +1,84 @@
+date:Thu Mar 13 01:52:41 2025
+index:0 Custom::ImageBlur elapsed time: 30.2103 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0599403 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 572 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 01:52:41 2025
+index:1 Custom::ImageBlur elapsed time: 22.6587 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0460129 sec
+index:1 Custom::ImageBlur memory usage: 0 KB
+index:1 OpenCV::ImageBlur memory usage: 564 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 01:52:41 2025
+index:2 Custom::ImageBlur elapsed time: 30.3978 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0615207 sec
+index:2 Custom::ImageBlur memory usage: 0 KB
+index:2 OpenCV::ImageBlur memory usage: 564 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 01:55:15 2025
+index:1 Custom::ImageBlur elapsed time: 23.9422 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0482233 sec
+index:1 Custom::ImageBlur memory usage: 234780 KB
+index:1 OpenCV::ImageBlur memory usage: 488 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 01:55:15 2025
+index:0 Custom::ImageBlur elapsed time: 31.8213 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0690275 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 592 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 01:55:15 2025
+index:2 Custom::ImageBlur elapsed time: 31.9546 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0650399 sec
+index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:2 OpenCV::ImageBlur memory usage: 1.80144e+16 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 01:56:52 2025
+index:1 Custom::ImageBlur elapsed time: 24.0789 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0511908 sec
+index:1 Custom::ImageBlur memory usage: 234672 KB
+index:1 OpenCV::ImageBlur memory usage: 544 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 01:56:52 2025
+index:2 Custom::ImageBlur elapsed time: 31.8302 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0606853 sec
+index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:2 OpenCV::ImageBlur memory usage: 600 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 01:56:52 2025
+index:0 Custom::ImageBlur elapsed time: 31.9336 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0673018 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 612 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 02:05:44 2025
+index:1 Custom::ImageBlur elapsed time: 23.4999 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0471942 sec
+index:1 Custom::ImageBlur memory usage: 234740 KB
+index:1 OpenCV::ImageBlur memory usage: 492 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 02:05:44 2025
+index:0 Custom::ImageBlur elapsed time: 31.1028 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0628607 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 608 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 02:05:44 2025
+index:2 Custom::ImageBlur elapsed time: 31.2622 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0620938 sec
+index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:2 OpenCV::ImageBlur memory usage: 40 KB
+index:2 Blur Image is same? 1
+

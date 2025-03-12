@@ -1,14 +1,15 @@
-[2025-03-12 16:35:18] [info] config.json loaded successfully!
-[2025-03-12 16:35:18] [info] Found 6 image files in: test_images
-[2025-03-12 16:35:18] [error] Image file should be grayscale!
-[2025-03-12 16:35:19] [error] Image file should be grayscale!
-[2025-03-12 16:35:19] [error] Image file should be grayscale!
-[2025-03-12 16:35:36] [info]  Custom ImageBlur success!
-[2025-03-12 16:35:36] [info]  OpenCV ImageBlur success!
-[2025-03-12 16:35:37] [info] Result images saved successfully!
-[2025-03-12 16:35:45] [info]  Custom ImageBlur success!
-[2025-03-12 16:35:45] [info]  OpenCV ImageBlur success!
-[2025-03-12 16:35:45] [info]  Custom ImageBlur success!
-[2025-03-12 16:35:45] [info]  OpenCV ImageBlur success!
-[2025-03-12 16:35:46] [info] Result images saved successfully!
-[2025-03-12 16:35:46] [info] Result images saved successfully!
+[2025-03-12 19:06:11] [info] config.json loaded successfully!
+[2025-03-12 19:06:11] [info] Found 6 image files in: test_images
+[2025-03-12 19:06:11] [error] Image file should be grayscale!
+[2025-03-12 19:06:12] [error] Image file should be grayscale!
+[2025-03-12 19:06:12] [error] Image file should be grayscale!
+[2025-03-12 19:06:27] [info] index:3 Custom ImageBlur success!
+[2025-03-12 19:06:27] [info] index:3 OpenCV ImageBlur success!
+[2025-03-12 19:06:27] [warning] Result path not found! Creating new directory: result_images
+[2025-03-12 19:06:28] [info] index:3 Result images saved successfully!
+[2025-03-12 19:06:33] [info] index:1 Custom ImageBlur success!
+[2025-03-12 19:06:33] [info] index:1 OpenCV ImageBlur success!
+[2025-03-12 19:06:34] [info] index:5 Custom ImageBlur success!
+[2025-03-12 19:06:34] [info] index:5 OpenCV ImageBlur success!
+[2025-03-12 19:06:35] [info] index:1 Result images saved successfully!
+[2025-03-12 19:06:35] [info] index:5 Result images saved successfully!

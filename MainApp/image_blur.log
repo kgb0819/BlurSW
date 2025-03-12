@@ -1,11 +1,14 @@
-[2025-03-12 16:54:45] [info] config.json loaded successfully!
-[2025-03-12 16:54:45] [info] Found 3 image files in: ../test_images
-[2025-03-12 16:55:01] [info] index:1 Custom ImageBlur success!
-[2025-03-12 16:55:01] [info] index:1  OpenCV ImageBlur success!
-[2025-03-12 16:55:02] [info] index:1 Result images saved successfully!
-[2025-03-12 16:55:07] [info] index:2 Custom ImageBlur success!
-[2025-03-12 16:55:07] [info] index:2  OpenCV ImageBlur success!
-[2025-03-12 16:55:07] [info] index:0 Custom ImageBlur success!
-[2025-03-12 16:55:07] [info] index:0  OpenCV ImageBlur success!
-[2025-03-12 16:55:08] [info] index:2 Result images saved successfully!
-[2025-03-12 16:55:08] [info] index:0 Result images saved successfully!
+[2025-03-13 02:08:15] [info] config.json loaded successfully!
+[2025-03-13 02:08:15] [info] Found 3 image files in: ./test_images
+[2025-03-13 02:08:39] [info] index:1 Custom ImageBlur success!
+[2025-03-13 02:08:39] [info] index:1 OpenCV ImageBlur success!
+[2025-03-13 02:08:39] [info] index:1 Make Test Report
+[2025-03-13 02:08:40] [info] index:1 Result images saved successfully!
+[2025-03-13 02:08:47] [info] index:0 Custom ImageBlur success!
+[2025-03-13 02:08:47] [info] index:0 OpenCV ImageBlur success!
+[2025-03-13 02:08:47] [info] index:0 Make Test Report
+[2025-03-13 02:08:47] [info] index:2 Custom ImageBlur success!
+[2025-03-13 02:08:47] [info] index:2 OpenCV ImageBlur success!
+[2025-03-13 02:08:47] [info] index:2 Make Test Report
+[2025-03-13 02:08:48] [info] index:0 Result images saved successfully!
+[2025-03-13 02:08:48] [info] index:2 Result images saved successfully!

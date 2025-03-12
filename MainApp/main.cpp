@@ -1,33 +1,21 @@
-#include <windows.h>
-#include <psapi.h>
-
 #include <iostream>
 #include <fstream>
 
-#include "ImageObject.h"
 #include "nlohmann/json.hpp"
-#include "Custom.h"
-#include "OpenCV.h"
+#include "ImageProcess.h"
 
 #include <spdlog/spdlog.h>
+#include <spdlog/sinks/stdout_color_sinks.h>
 #include <spdlog/sinks/basic_file_sink.h>
-
-#pragma comment(lib, "Custom.lib")
-#pragma comment(lib, "OpenCV.lib")
-
 
 using json = nlohmann::json;
 using namespace std;
 
-auto fileLogger = spdlog::basic_logger_mt("file_logger", "image_blur.log");
+auto console_sink = std::make_shared<spdlog::sinks::stdout_color_sink_mt>();
+auto file_sink = std::make_shared<spdlog::sinks::basic_file_sink_mt>("image_blur.log", true);
 
-size_t GetMemoryUsage() {
-	PROCESS_MEMORY_COUNTERS_EX pmc;
-	if (GetProcessMemoryInfo(GetCurrentProcess(), (PROCESS_MEMORY_COUNTERS*)&pmc, sizeof(pmc))) {
-		return pmc.PrivateUsage; // 현재 프로세스의 메모리 사용량 (바이트 단위)
-	}
-	return 0;
-}
+std::vector<spdlog::sink_ptr> sinks{ console_sink, file_sink };
+auto fileLogger = std::make_shared<spdlog::logger>("multi_logger", sinks.begin(), sinks.end());
 
 json loadConfig(const string& path) {
 	ifstream ifs(path);
@@ -74,63 +62,19 @@ vector<string> getImageList(const string& imagePath) {
 
 // 이미지 처리 함수
 void processImage(const string& filePath, const json& config, int index) {
-	cv::Mat src = cv::imread(filePath, cv::IMREAD_UNCHANGED);
-	if (src.empty()) {
-		fileLogger->error("Image file not found!");
-		return;
-	}
-	if (src.channels() != 1) {
-		fileLogger->error("Image file should be grayscale!");
-		return;
-	}
+	ImageProcess imageProcess(index, config["kernel_size"]);
+	if (!imageProcess.loadImage(filePath)) return;
+	imageProcess.customBlurImage();
+	imageProcess.opencvBlurImage();
 
-	ImageObject srcImage(src);
-	ImageObject dstImage(src.cols, src.rows);
-	ImageObject dstImageOpenCV(src.cols, src.rows);
-
-
-	// Custom Blur
-	size_t memoryBeforeCustom = GetMemoryUsage();
-	int64_t startTime1 = cv::getTickCount();
-	Custom::ImageBlur(&srcImage, &dstImage, config["kernel_size"]);
-	int64_t endTime1 = cv::getTickCount();
-	size_t memoryAfterCustom = GetMemoryUsage();
-	size_t memoryUsageCustom = memoryAfterCustom - memoryBeforeCustom;
-	fileLogger->info("index:{} Custom ImageBlur success!", index);
-
-	// OpenCV Blur
-	size_t memoryBeforeOpencv = GetMemoryUsage();
-	int64_t startTime2 = cv::getTickCount();
-	OpenCV::ImageBlur(&srcImage, &dstImageOpenCV, config["kernel_size"]);
-	int64_t endTime2 = cv::getTickCount();
-	size_t memoryAfterOpencv = GetMemoryUsage();
-	size_t memoryUsageOpencv = memoryAfterOpencv - memoryBeforeOpencv;
-	fileLogger->info("index:{}  OpenCV ImageBlur success!", index);
-
-	// Blur 결과 비교
-	cv::Mat diff;
-	cv::absdiff(dstImage.toMat(), dstImageOpenCV.toMat(), diff);
-	double diffScore = cv::sum(diff)[0] / (diff.rows * diff.cols);
-
-	// 결과 Report 출력
-	fstream fs;
-	fs.open("outputReport.txt", ios::app);
-	fs << "index:" << index << " Custom::ImageBlur elapsed time: " << (endTime1 - startTime1) / cv::getTickFrequency() << " sec" << endl;
-	fs << "index:" << index << " OpenCV::ImageBlur elapsed time: " << (endTime2 - startTime2) / cv::getTickFrequency() << " sec" << endl;
-	fs << "index:" << index << " Custom::ImageBlur memory usage: " << memoryUsageCustom << " bytes" << endl;
-	fs << "index:" << index << " OpenCV::ImageBlur memory usage: " << memoryUsageOpencv << " bytes" << endl;
-	fs << "index:" << index << " Image Difference Score: " << diffScore << endl << endl;
-	fs.close();
-
-	// 결과 저장
-	string resultPath = config["result_path"];
-	cv::imwrite(resultPath + "/" + to_string(index) + "_opencv_blur.png", dstImageOpenCV.toMat());
-	cv::imwrite(resultPath + "/" + to_string(index) + "_custom_blur.png", dstImage.toMat());
-	fileLogger->info("index:{} Result images saved successfully!", index);
+	imageProcess.compareImage();
+	imageProcess.makeReport();
+	imageProcess.saveImages(config["result_path"]);
 }
 
 
 int main() {
+	spdlog::register_logger(fileLogger);
 	spdlog::set_pattern("[%Y-%m-%d %H:%M:%S] [%^%l%$] %v");
 
 	// 셋팅 값 load
@@ -145,6 +89,7 @@ int main() {
 	std::vector<std::thread> threads;
 	for (int i = 0; i < fileList.size(); i++)
 	{
+		//processImage(fileList[i], config, i);
 		threads.emplace_back(processImage,fileList[i], config, i);
 	}
 
