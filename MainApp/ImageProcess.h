@@ -15,12 +15,13 @@ private:
 	ImageObject dstImage;
 	ImageObject dstImageOpenCV;
 
+	std::string fileName;
 	int index;
 	int kernelSize;
 
-	uint64_t memoryUsageCustom;
+	size_t memoryUsageCustom;
+	size_t memoryUsageOpenCV;
 	int64_t processTimeCustom;
-	uint64_t memoryUsageOpenCV;
 	int64_t processTimeOpenCV;
 
 	bool isSame;
@@ -28,7 +29,7 @@ private:
 	std::mutex memoryMutex;
 	std::mutex fileMutex;
 
-	uint64_t GetMemoryUsage();
+	size_t GetMemoryUsage();
 
 public:
 	ImageProcess(int index, int kernelSize);

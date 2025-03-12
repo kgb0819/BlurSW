@@ -1,40 +1,20 @@
 ﻿  ImageProcess.cpp
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0x9ce 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0x9cf 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0x9d3 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0x9d4 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa7c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa7d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa88 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa8a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa8b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  main.cpp
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x71a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x71d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x71f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x723 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x724 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x726 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x728 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x729 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x914 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x915 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x917 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x919 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x91a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x976 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x979 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x97b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x97c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x97d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x97e 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x982 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-D:\BlurSW\MainApp\main.cpp(1,1): warning C4828: 파일에 0x983 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa58 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa59 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa5d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xa5e 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xb06 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xb07 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xb12 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xb14 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+D:\BlurSW\MainApp\ImageProcess.cpp(1,1): warning C4828: 파일에 0xb15 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
   코드를 생성하고 있습니다.
-  6 of 4644 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
-    2 functions were new in current compilation
-    25 functions had inline decision re-evaluated but remain unchanged
+  5 of 4673 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
+ImageObjectLib.lib(ImageObject.obj) : warning LNK4204: ''에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
+ImageObjectLib.lib(pch.obj) : warning LNK4204: ''에 참조 모듈에 대한 디버깅 정보가 없습니다. 디버깅 정보가 없는 것처럼 개체를 링크합니다.
   MainApp.vcxproj -> D:\BlurSW\x64\Release\MainApp.exe
   'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
   배치 파일이 아닙니다.

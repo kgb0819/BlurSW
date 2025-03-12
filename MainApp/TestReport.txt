@@ -82,3 +82,291 @@ index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
 index:2 OpenCV::ImageBlur memory usage: 40 KB
 index:2 Blur Image is same? 1
 
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 23.3211 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0473021 sec
+index:1 Custom::ImageBlur memory usage: 234704 KB
+index:1 OpenCV::ImageBlur memory usage: 1.80144e+16 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 30.7588 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0621763 sec
+index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:2 OpenCV::ImageBlur memory usage: 118652 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 30.7658 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0645492 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 0 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 23.0542 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0475971 sec
+index:1 Custom::ImageBlur memory usage: 234712 KB
+index:1 OpenCV::ImageBlur memory usage: 476 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 30.5897 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0613057 sec
+index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:2 OpenCV::ImageBlur memory usage: 716 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 30.8294 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0621104 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 0 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 28.411 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0533326 sec
+index:1 Custom::ImageBlur memory usage: 234700 KB
+index:1 OpenCV::ImageBlur memory usage: 480 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 35.7667 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0625207 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 118028 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 35.8081 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0641181 sec
+index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:2 OpenCV::ImageBlur memory usage: 0 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 28.5293 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0539066 sec
+index:1 Custom::ImageBlur memory usage: 234672 KB
+index:1 OpenCV::ImageBlur memory usage: 484 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 40.5576 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0789447 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 580 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 02:48:59 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 40.9611 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0725509 sec
+index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:2 OpenCV::ImageBlur memory usage: 0 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:05:20 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 26.6046 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.105777 sec
+index:1 Custom::ImageBlur memory usage: 229.215 KB
+index:1 OpenCV::ImageBlur memory usage: 0.472656 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 03:05:20 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 40.6486 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.13717 sec
+index:2 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:2 OpenCV::ImageBlur memory usage: 0.589844 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:05:20 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 40.9349 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.121812 sec
+index:0 Custom::ImageBlur memory usage: 1.80144e+16 KB
+index:0 OpenCV::ImageBlur memory usage: 0 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 03:06:31 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 26.6255 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.106304 sec
+index:1 Custom::ImageBlur memory usage: 234804 KB
+index:1 OpenCV::ImageBlur memory usage: 536 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 03:06:31 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 39.3162 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.138511 sec
+index:2 Custom::ImageBlur memory usage: 18446744073709301828 KB
+index:2 OpenCV::ImageBlur memory usage: 628 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:06:31 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 39.7432 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.138091 sec
+index:0 Custom::ImageBlur memory usage: 18446744073709479140 KB
+index:0 OpenCV::ImageBlur memory usage: 0 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 03:11:34 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 29.2832 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0591657 sec
+index:0 Custom::ImageBlur memory usage: 0 KB
+index:0 OpenCV::ImageBlur memory usage: 572 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 03:11:34 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 22.0101 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0453416 sec
+index:1 Custom::ImageBlur memory usage: 0 KB
+index:1 OpenCV::ImageBlur memory usage: 564 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 03:11:34 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 29.4673 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.059033 sec
+index:2 Custom::ImageBlur memory usage: 0 KB
+index:2 OpenCV::ImageBlur memory usage: 564 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:14:40 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 29.5115 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0606677 sec
+index:0 Custom::ImageBlur memory usage: 0 KB
+index:0 OpenCV::ImageBlur memory usage: 572 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 03:14:40 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 22.1619 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0443822 sec
+index:1 Custom::ImageBlur memory usage: 0 KB
+index:1 OpenCV::ImageBlur memory usage: 564 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 03:14:40 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 29.1756 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.05906 sec
+index:2 Custom::ImageBlur memory usage: 0 KB
+index:2 OpenCV::ImageBlur memory usage: 564 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:16:52 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 30.6016 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0605857 sec
+index:0 Custom::ImageBlur memory usage: 18446744073709551508 KB
+index:0 OpenCV::ImageBlur memory usage: 620 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 03:16:52 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 22.0069 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0445297 sec
+index:1 Custom::ImageBlur memory usage: 0 KB
+index:1 OpenCV::ImageBlur memory usage: 564 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 03:16:52 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 29.062 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0602153 sec
+index:2 Custom::ImageBlur memory usage: 0 KB
+index:2 OpenCV::ImageBlur memory usage: 612 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:16:52 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 23.7698 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0453908 sec
+index:1 Custom::ImageBlur memory usage: 234676 KB
+index:1 OpenCV::ImageBlur memory usage: 492 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 03:16:52 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 31.4432 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0690019 sec
+index:2 Custom::ImageBlur memory usage: 18446744073709301928 KB
+index:2 OpenCV::ImageBlur memory usage: 620 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:16:52 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 31.5501 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0636349 sec
+index:0 Custom::ImageBlur memory usage: 44480 KB
+index:0 OpenCV::ImageBlur memory usage: 18446744073709434832 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 03:30:53 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 27.6472 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0536714 sec
+index:1 Custom::ImageBlur memory usage: 234740 KB
+index:1 OpenCV::ImageBlur memory usage: 492 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 03:30:53 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 41.36 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.079071 sec
+index:2 Custom::ImageBlur memory usage: 18446744073709419304 KB
+index:2 OpenCV::ImageBlur memory usage: 118656 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:30:53 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 41.3954 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0799888 sec
+index:0 Custom::ImageBlur memory usage: 18446744073709419952 KB
+index:0 OpenCV::ImageBlur memory usage: 18446744073709550964 KB
+index:0 Blur Image is same? 1
+
+date:Thu Mar 13 03:38:32 2025
+FileName: high_res_dog_chewing_bone_gray.jpg
+index:1 Custom::ImageBlur elapsed time: 23.3363 sec
+index:1 OpenCV::ImageBlur elapsed time: 0.0461349 sec
+index:1 Custom::ImageBlur memory usage: 234808 KB
+index:1 OpenCV::ImageBlur memory usage: 480 KB
+index:1 Blur Image is same? 1
+
+date:Thu Mar 13 03:38:32 2025
+FileName: high_res_fantasy_landscape_gray.jpg
+index:2 Custom::ImageBlur elapsed time: 30.7847 sec
+index:2 OpenCV::ImageBlur elapsed time: 0.0620216 sec
+index:2 Custom::ImageBlur memory usage: 18446744073709301868 KB
+index:2 OpenCV::ImageBlur memory usage: 584 KB
+index:2 Blur Image is same? 1
+
+date:Thu Mar 13 03:38:32 2025
+FileName: high_res_cyberpunk_city_gray.jpg
+index:0 Custom::ImageBlur elapsed time: 31.0598 sec
+index:0 OpenCV::ImageBlur elapsed time: 0.0643008 sec
+index:0 Custom::ImageBlur memory usage: 18446744073709479244 KB
+index:0 OpenCV::ImageBlur memory usage: 0 KB
+index:0 Blur Image is same? 1
+

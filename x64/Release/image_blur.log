@@ -1,15 +1,18 @@
-[2025-03-12 19:06:11] [info] config.json loaded successfully!
-[2025-03-12 19:06:11] [info] Found 6 image files in: test_images
-[2025-03-12 19:06:11] [error] Image file should be grayscale!
-[2025-03-12 19:06:12] [error] Image file should be grayscale!
-[2025-03-12 19:06:12] [error] Image file should be grayscale!
-[2025-03-12 19:06:27] [info] index:3 Custom ImageBlur success!
-[2025-03-12 19:06:27] [info] index:3 OpenCV ImageBlur success!
-[2025-03-12 19:06:27] [warning] Result path not found! Creating new directory: result_images
-[2025-03-12 19:06:28] [info] index:3 Result images saved successfully!
-[2025-03-12 19:06:33] [info] index:1 Custom ImageBlur success!
-[2025-03-12 19:06:33] [info] index:1 OpenCV ImageBlur success!
-[2025-03-12 19:06:34] [info] index:5 Custom ImageBlur success!
-[2025-03-12 19:06:34] [info] index:5 OpenCV ImageBlur success!
-[2025-03-12 19:06:35] [info] index:1 Result images saved successfully!
-[2025-03-12 19:06:35] [info] index:5 Result images saved successfully!
+[2025-03-13 03:39:54] [info] config.json loaded successfully!
+[2025-03-13 03:39:54] [info] Found 6 image files in: test_images
+[2025-03-13 03:39:54] [error] Image file should be grayscale!
+[2025-03-13 03:39:55] [error] Image file should be grayscale!
+[2025-03-13 03:39:55] [error] Image file should be grayscale!
+[2025-03-13 03:40:22] [info] index:3 Custom ImageBlur success!
+[2025-03-13 03:40:22] [info] index:3 OpenCV ImageBlur success!
+[2025-03-13 03:40:22] [info] index:3 Make Test Report
+[2025-03-13 03:40:22] [warning] Result path not found! Creating new directory: result_images
+[2025-03-13 03:40:23] [info] index:3 Result images saved successfully!
+[2025-03-13 03:40:35] [info] index:1 Custom ImageBlur success!
+[2025-03-13 03:40:35] [info] index:1 OpenCV ImageBlur success!
+[2025-03-13 03:40:35] [info] index:1 Make Test Report
+[2025-03-13 03:40:36] [info] index:5 Custom ImageBlur success!
+[2025-03-13 03:40:36] [info] index:5 OpenCV ImageBlur success!
+[2025-03-13 03:40:36] [info] index:5 Make Test Report
+[2025-03-13 03:40:37] [info] index:1 Result images saved successfully!
+[2025-03-13 03:40:37] [info] index:5 Result images saved successfully!
